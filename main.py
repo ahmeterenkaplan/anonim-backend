@@ -23,7 +23,7 @@ app.add_middleware(
 print("⏳ Loading English Models...")
 try:
     # Daha önce indirdiğin en_core_web_lg modelini kullanıyoruz
-    nlp = spacy.load("en_core_web_lg")
+    nlp = spacy.load("en_core_web_sm")
     # Presidio varsayılan olarak İngilizce çalışır, ekstra ayara gerek yok
     analyzer = AnalyzerEngine() 
     anonymizer = AnonymizerEngine()
